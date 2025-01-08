@@ -10,3 +10,22 @@ export const navigation = [
         url: '/resume.pdf'
     }
 ]
+
+export const technologies = [
+    {
+        name: 'Java',
+        icon: 'tech/java.svg',
+    },
+    {
+        name: 'TypeScript',
+        icon: 'tech/typescript.svg'
+    },
+    {
+        name:'JavaScript',
+        icon: 'tech/javascript.svg',
+    },
+    {
+        name: 'NodeJS',
+        icon: 'tech/node.svg'
+    }
+]

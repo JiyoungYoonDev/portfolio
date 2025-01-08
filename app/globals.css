@@ -18,10 +18,21 @@
 body {
 	color: var(--foreground);
 	background: var(--background);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Funnel Display', Tahoma, Geneva, Verdana;
 }
 
+@layer base {
+	.section {
+		@apply flex justify-center items-center flex-col text-center;
+	}
+	.divide-section {
+		@apply mb-20 mt-8
+	}
+}
 @layer utilities {
+	.c-space {
+		@apply sm:px-10 px-5;
+	}
 	.nav-ul {
 		@apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20;
 	}
